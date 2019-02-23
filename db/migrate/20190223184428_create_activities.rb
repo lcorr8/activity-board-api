@@ -6,7 +6,7 @@ class CreateActivities < ActiveRecord::Migration[5.1]
       t.float :time
       t.string :link
       t.string :notes
-      t.string :type
+      t.string :activity_type
 
       t.timestamps
     end

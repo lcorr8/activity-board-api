@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 20190223184428) do
     t.float "time"
     t.string "link"
     t.string "notes"
-    t.string "type"
+    t.string "activity_type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

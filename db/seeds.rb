@@ -14,7 +14,7 @@ activities = Activity.create(
             time: 1.5 ,
             link: "https://en.wikipedia.org/wiki/Topography_of_Terror",
             notes: "",
-            type: "museum"
+            activity_type: "museum"
         },
         {
             title: "Holocaust Memorial",
@@ -22,7 +22,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Memorial_to_the_Murdered_Jews_of_Europe",
             notes: "",
-            type: "walking"
+            activity_type: "walking"
         },
         {
             title: "Brandenburg Gate",
@@ -30,7 +30,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Brandenburg_Gate",
             notes: "",
-            type: "walking"
+            activity_type: "walking"
         },
         {
             title: "State Opera",
@@ -38,7 +38,7 @@ activities = Activity.create(
             time: 2.0,
             link: "https://en.wikipedia.org/wiki/Berlin_State_Opera",
             notes: "",
-            type: "walking"
+            activity_type: "walking"
         },
         {
             title: "Neue Wache",
@@ -46,7 +46,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Neue_Wache",
             notes: "",
-            type: "walking"
+            activity_type: "walking"
         },
         {
             title: "Reichstag Dome",
@@ -54,7 +54,7 @@ activities = Activity.create(
             time: 1.0,
             link: "https://en.wikipedia.org/wiki/Reichstag_building",
             notes: "free, but ticketed",
-            type: "tour"
+            activity_type: "tour"
         },
         {
             title: "Bebelplatz",
@@ -62,7 +62,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Bebelplatz",
             notes: "",
-            type: "walking"
+            activity_type: "walking"
         },
         {
             title: "Berlin Wall Memorial",
@@ -70,7 +70,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Gedenkst%C3%A4tte_Berliner_Mauer",
             notes: "",
-            type: "walking"
+            activity_type: "walking"
         },
         {
             title: "East Side Gallery",
@@ -78,7 +78,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Berlin_Wall_graffiti_art",
             notes: "",
-            type: "walking"
+            activity_type: "walking"
         },
         {
             title: "Tempelhof Airport",
@@ -86,7 +86,7 @@ activities = Activity.create(
             time: 3.0,
             link: "https://en.wikipedia.org/wiki/Berlin_Tempelhof_Airport",
             notes: "",
-            type: "tour"
+            activity_type: "tour"
         },
         {
             title: "Russian War Memorial",
@@ -94,7 +94,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Soviet_War_Memorial_(Treptower_Park)",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Viktoria Park",
@@ -102,7 +102,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Viktoriapark",
             notes: "",
-            type: "walking"
+            activity_type: "walking"
         },
         {
             title: "Kaiser Wilhelm Memorial Church",
@@ -110,7 +110,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Kaiser_Wilhelm_Memorial_Church",
             notes: "",
-            type: "walking"
+            activity_type: "walking"
         },
         {
             title: "Tuesday at 1 PM free concert at the Berlin Philharmonie",
@@ -118,7 +118,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://www.berliner-philharmoniker.de/en/concerts/calendar/events/von/2019-02/cat/orchestra/",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Prinzessinnengarten",
@@ -126,7 +126,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://www.visitberlin.de/en/prinzessinnengarten",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "A boat cruise?",
@@ -134,7 +134,7 @@ activities = Activity.create(
             time: 0.5,
             link: "",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Pergamon Museum",
@@ -142,7 +142,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Pergamon_Museum",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Neues Museum",
@@ -150,7 +150,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Neues_Museum",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Old National Gallery",
@@ -158,7 +158,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Alte_Nationalgalerie",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Altes Museum",
@@ -166,7 +166,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Altes_Museum",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Bode Museum",
@@ -174,7 +174,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Bode_Museum",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Checkpoint Charlie",
@@ -182,7 +182,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Checkpoint_Charlie",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Room of Silence",
@@ -190,7 +190,7 @@ activities = Activity.create(
             time: 0.5,
             link: "",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Schlosspark Charlottenburg",
@@ -198,7 +198,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Charlottenburg_Palace",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Die Hackeschen Höfe",
@@ -206,7 +206,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Hackesche_H%C3%B6fe",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Hackescher Markt",
@@ -214,7 +214,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Hackescher_Markt",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "New Synagogue",
@@ -222,7 +222,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/New_Synagogue,_Berlin",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Alexanderplatz",
@@ -230,7 +230,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Alexanderplatz",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Gendarmenmarkt",
@@ -238,7 +238,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Gendarmenmarkt",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Markthalle Neun",
@@ -246,7 +246,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://www.visitberlin.de/en/markthalle-neun-market-hall-nine",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Deutsches Guggenheim Museum: free mondays",
@@ -254,7 +254,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Deutsche_Guggenheim",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Landwehrkanal",
@@ -262,7 +262,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Landwehr_Canal",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Neptunbrunnen",
@@ -270,7 +270,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Neptunbrunnen",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Take the 100 bus",
@@ -278,7 +278,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://www.visitberlin.de/en/explore-berlin-bus-100",
             notes: "",
-            type: "bus tour"
+            activity_type: "bus tour"
         },
         {
             title: "Victory Column",
@@ -286,7 +286,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Berlin_Victory_Column",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Walk up Teufelsberg (spy station)",
@@ -294,7 +294,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Teufelsberg",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Walk around KaDeWe",
@@ -302,7 +302,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Kaufhaus_des_Westens",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Go to a german Spa",
@@ -310,7 +310,7 @@ activities = Activity.create(
             time: 0.5,
             link: "",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Give or take a book from the Book Forest",
@@ -318,7 +318,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://withberlinlove.com/2016/06/10/bucherwald-the-book-forest-of-berlin/",
             notes: "",
-            type: ""
+            activity_type: ""
         },
         {
             title: "Badeschiff",
@@ -326,7 +326,7 @@ activities = Activity.create(
             time: 0.5,
             link: "https://en.wikipedia.org/wiki/Badeschiff",
             notes: "",
-            type: ""
+            activity_type: ""
         }
     ]
 )
