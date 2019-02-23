@@ -14,9 +14,11 @@ ActiveRecord::Schema.define(version: 20190223184428) do
 
   create_table "activities", force: :cascade do |t|
     t.string "title"
-    t.string "hood"
+    t.string "neighborhood"
     t.float "time"
     t.string "link"
+    t.string "notes"
+    t.string "type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
