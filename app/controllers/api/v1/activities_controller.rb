@@ -1,14 +1,13 @@
 module Api::V1
     class ActivitiesController < ApplicationController
       def index
-        @activities = Activity.all
+        @activities = Activity.all.order("created_at DESC")
         render json: @activities
       end
 
       def create 
         puts "activity params"
         puts activity_params
-        # raise activity_params.inspect 
         @activity = Activity.create(activity_params)
         render json: @activity
       end
