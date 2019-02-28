@@ -12,6 +12,13 @@ module Api::V1
         render json: @activity
       end
       
+      def update
+        @activity = Activity.find(params[:id])
+        @activity.update_attributes(activity_params)
+        render json: @activity
+      end
+
+      
       private
       
         def activity_params
